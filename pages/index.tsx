@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
+import HomeBar from '../components/Organisms/HomeBar';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -11,6 +11,7 @@ const Home: NextPage = () => {
         <meta name="Meu website" content="Meu curriculo" />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <HomeBar />
     </div>
   );
 };
