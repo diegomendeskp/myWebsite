@@ -7,22 +7,36 @@ export default function Contracts() {
   return (
     <>
       <Links
+        target="_blank"
+        rel="noreferrer"
         href="https://www.linkedin.com/in/diego-mendes-da-silva-7a80a6229/"
         underline="hover"
       >
         <LinkedInIcon />
       </Links>
       <Links
+        target="_blank"
+        rel="noreferrer"
         href="https://github.com/diegomendeskp"
         underline="hover"
       >
         <GitHubIcon />
       </Links>
-      <Links href="#" underline="hover">
+      <Links
+        target="_blank"
+        rel="noreferrer"
+        href="#"
+        underline="hover"
+      >
         <EmailIcon />
       </Links>
 
-      <Links href="https://contate.me/Diego.Mendes" underline="hover">
+      <Links
+        target="_blank"
+        rel="noreferrer"
+        href="https://contate.me/Diego.Mendes"
+        underline="hover"
+      >
         <WhatsAppIcon />
       </Links>
     </>
